@@ -102,7 +102,7 @@ df_raw, X_features, X_train, X_train_scaled, models, accuracies, scaler, pca, km
 # 3. INTERACTIVE INPUT SIDEBAR
 # ---------------------------------------------------------
 st.sidebar.title("👤 Input Profile Metrics")
-st.sidebar.markdown("Modify values below to see changes across all Phase 2 models.")
+st.sidebar.markdown("Modify values below to see changes.")
 
 age = st.sidebar.slider("Age", 18, 60, 35)
 monthly_income = st.sidebar.number_input("Monthly Income ($)", 1000, 20000, 4500)
