@@ -140,7 +140,7 @@ input_scaled = scaler.transform(input_df)
 # ---------------------------------------------------------
 # 4. MAIN APP HEADER & NAVIGATION TABS
 # ---------------------------------------------------------
-st.title("🏆 AI-Powered Employee Attrition System (Phase 2 Workspace)")
+st.title("🏆 AI-Powered Employee Attrition System ")
 st.markdown("This dashboard maps your full project requirements into an interactive interface.")
 st.divider()
 
